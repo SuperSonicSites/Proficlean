@@ -1,9 +1,36 @@
 baseURL: "/"
 DefaultContentLanguage: en
-title: Proficlean - Cleaning Services & Probiotic Cleaning Products
-description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
 
-menu:
+languages:
+  fr:
+    languageCode: fr
+    title: ProfiClean - Services et Produits de Nettoyage Probiotiques
+    description: ProfiClean offre des services de nettoyage exceptionnels et des produits de nettoyage probiotiques. Pour des services résidentiels et commerciaux et des produits pour votre maison, appelez dès aujourd'hui!
+    contentDir: content/fr
+    menu:
+      main:
+        - name: Home
+          url: '/'
+          weight: 1
+        - name: À Propos
+          url: 'a-propos/'
+          weight: 2
+        - name: Services
+          url: 'services/'
+          weight: 3
+        - name: Produits
+          url: 'produits/'
+          weight: 4
+        - name: Contact
+          url: 'contact/'
+          weight: 5
+
+  en:
+    languageCode: en
+    title: ProfiClean - Cleaning Services & Probiotic Cleaning Products
+    description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
+    contentDir: content/en
+    menu:
       main:
         - name: Home
           url: '/'
@@ -20,6 +47,7 @@ menu:
         - name: Contact
           url: 'contact/'
           weight: 5
+
 
 params:
     name: 'Proficlean'
