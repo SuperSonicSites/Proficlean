@@ -124,9 +124,9 @@
 
 }
 .gradient-background {
-     background: linear-gradient(45deg, #23A6D5 , $primary,#12304f, $primary);
-       animation: gradient 20s ease infinite; 
-        background-size: 400% 400%;
+    background-image: url(../img/background2.jpg);
+    background-position: top;
+    background-size: cover;
     
   }
   @-webkit-keyframes gradient{

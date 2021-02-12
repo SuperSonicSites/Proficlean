@@ -1,40 +1,20 @@
 {{ define "main" }}
-<header class="hero is-medium is-bold gradient-background home">
+<header class="hero is-fullheight is-bold gradient-background home">
 
     <div class="hero-body">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
-      <div class="container">
-          <div class="columns">
-              <div class="column is-7 is-flex is-column is-justified-center">
-                <div class="is-flex is-column is-aligned-center-touch is-justified-center-touch">
-                    <p class="is-size-4 has-text-uppercase has-text-white has-text-weight-bold" data-aos="fade-right" data-aos-duration="800">{{ .Params.hero1 | safeHTML }}</p>
-                    <h1 class="title is-size-1 my-3 has-text-white" data-aos="fade" data-aos-delay="500" data-aos-duration="800">
+        
+      <div class="container is-flex is-column">
+          <div class="column is-8">
+
+                    <p class="is-size-4 has-text-uppercase has-text-weight-bold" data-aos="fade-right" data-aos-duration="800">{{ .Params.hero1 | safeHTML }}</p>
+                    <h1 class="title is-size-1 my-3" data-aos="fade" data-aos-delay="500" data-aos-duration="800">
                       Custom Software<span style='font-style: italic;'>Plus</span>
                     </h1>
                     
-                    <p class="subtitle mt-1 is-size-5 has-text-white" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
+                    <p class="subtitle mt-1 is-size-5" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
                       {{ .Params.hero2 | safeHTML }}
                     </p>
-                </div>
-              </div>
-              <div class="column is-1"></div>
-              <div class="column is-4">
-                <div class="" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="800">
-                {{- partial "form.html" .}}
-              </div>
-          </div>
-
+                  </div>
       </div>
   
     </div>
