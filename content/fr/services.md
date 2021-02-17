@@ -8,22 +8,16 @@ heading1: Want to get away from inefficient and complicated business processes?
 serviceintro: "Your needs may be complex but that doesn't mean your software has to be. Achieve success with a process that understands your company's unique needs and anticipates your potential and growth. We're here to strategize with you to discover the best possible service and deliver a flexible software that can grow with you.<br><br>
 We offer custom web, mobile, and desktop software capable of working across all mainstream browsers, OSes, and mobile platforms. These softwares belong in 3 main categories, namely, management of B2B, B2C interactions, and internal operations. They can scale to millions of users and offer pristine UX through a direct, coherent format and streamlined workflows.<br><br>Ready to jump on board?"
 
-heading2: Our Software Development Process
+Service1: Floor Care Services
+Service1_desc: Professionally clean your floors and ensure healthy and safe environment for you, your team and your clients, while saving the planet in the same time. This is a great way to ensure green, healthy and safe environment, while in the same time saving loads of money on repairs and maintenance!<ul><li>- FREE DISINFECTION or FREE RISK ASSESSMENT for your premises (Value of minimum 300$)</li><li>- FREE COVID-19 PREVENTATIVE CONTROL PLAN Template (Value of 100$)</li><li>- COOL DISCOUNT VOUCHERS for our eCommerce shop for all your staff!</li></ul>
+service2: Commercial Cleaning Services
+service2_desc: Regardless if you need a one-time deep cleaning and disinfection of your facility or regular maintenance, we are there for you! We service the Montreal and grand Montreal region offering high quality, professional cleaning, and disinfection services to small to medium commercial clients and condo associations.<br><br>
 
-process1: Discovery
-process1_desc: Discover what's holding your company back from its full potential. We're here to walk you through that process, identifying the problems...and offering tangible solutions.
-process2: Planning & Execution
-process2_desc: Once we've identified the problems, it's time to design the solution! We'll strategize together and create a tailored product made just for you. 
-process3: Demo & Release
-process3_desc: Once you have your tailored software, it's time to try it out. How does it fit? Then you and your new process will be ready to get out there and thrive! 
+service2_desc2: <small>Despite the current situation we still strive to minimize the use of harsh chemicals that negatively impact the environment and our health! Disinfection has indeed become a vital part of our “new normal” and at least in the short-term, it seems to be inevitable in public and shared areas. We, therefore, try to do our best in selecting the least harmful solutions.</small>
+service3: Residential Green Cleaning
+service3_desc: Saving the planet one home at a time! We use only innovative and sustainable green cleaning materials to ensure that your homes are safe and sparkling clean each and every time! We offer FREE Estimation to ensure we fully understand your requirements and we provide an all-inclusive price per visit tailored to your specific needs and requirements.<br><br>Just book us when you need us and we will be there to give you a hand with everything you need! No budget for a regular cleaner? We’ve got you covered! Our one-time professional cleaning service is the perfect solution!<br><br>No hidden fees & no contracts!!
 
-heading3: Choose Your Service Option
-heading3_sub: We only offer cutting-edge products to help you get the best customized modern technology out there. We're here to offer solutions to your problems and help you gain that competitive advantage. 
-
-service1: Software Consulting
-service1_desc: Custom software development was created to solve the problems that mass generic processes couldn't handle. Let us know your challenges. Our professionals are ready to troubleshoot the problems and find the best solutions for you.
-service2: End-to-end Software Development
-service2_desc: Our experts are equipped to handle whatever problem you can throw our way. We're here to support you through the whole development process, from the first analysis to the strategic planning and execution, to the demo and release. We'll see you through to success.
-service3: Legacy Software Modernization
-service3_desc: The goal of software development is to help your processes become more dexterous and efficient. We're available to re-code or re-architect your legacy solutions with up-to-date tech, increase their serviceability, relocate them to the cloud, and more. Need anything else? Just ask!
+cta: HAVE QUESTIONS ABOUT OUR PRODUCTS OR SERVICES?
+cta_sub: 
+cta_link: /contact
 ---

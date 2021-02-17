@@ -4,7 +4,7 @@
 
     <div class="columns mt-6">
 
-    <div class="column is-3 is-flex is-justified-center is-aligned-center">
+    <div class="column is-6 is-flex is-justified-center is-aligned-center">
 
       <img src="{{ $.Site.BaseURL }}{{ .Site.Params.schema.logofooter }}"
                         alt="{{ .Site.Params.name }}"
@@ -27,40 +27,6 @@
         </ul>
 
     </nav>
-
-    </div>
-
-    <div class="column is-3">
-      <h3 class="is-size-4 has-text-uppercase mb-2">{{ i18n "hours" }}</h3>
-      <ul class="">
-
-      {{ if .Site.Params.hours.hour1en }}
-        {{ if eq .Site.Language.Lang "fr" }}
-          <li class="">{{ .Site.Params.hours.hour1fr }}</li>
-          {{ else }}
-          <li class="">{{ .Site.Params.hours.hour1en }}</li>
-        {{ end }}
-        <span></span>
-        {{ end }}
-
-        {{ if .Site.Params.hours.hour2en }}
-        {{ if eq .Site.Language.Lang "fr" }}
-          <li class="">{{ .Site.Params.hours.hour2fr }}</li>
-          {{ else }}
-          <li class="">{{ .Site.Params.hours.hour2en }}</li>
-        {{ end }}
-        <span></span>
-        {{ end }}
-
-        {{ if .Site.Params.hours.hour3en }}
-        {{ if eq .Site.Language.Lang "fr" }}
-          <li class="">{{ .Site.Params.hours.hour3fr }}</li>
-          {{ else }}
-          <li class="">{{ .Site.Params.hours.hour3en }}</li>
-        {{ end }}
-        <span></span>
-        {{ end }}
-    </ul>
 
     </div>
 
@@ -112,24 +78,24 @@
         <span></span>
         {{ end }}
       </div>
+      <div class="is-flex is-row is-aligned-center mb-2">
+      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-outbound-fill contact_icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  
+        <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.471 17.471 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+      
+    </svg>
 
-      <address class="">
+    <a href="tel:{{ $.Site.Params.schema.phone }}" class="has-text-primary pl-2">{{ $.Site.Params.schema.phone }}</a>
+  </div>
+      <div class="is-flex is-row is-aligned-center mb-2">
+  
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill contact_icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+          </svg>
 
-        <small>{{ .Site.Params.schema.address }},</small>
-        {{ if .Site.Params.schema.address2 }}
-        <br>
-        <small>{{ .Site.Params.schema.address2 }}</small>
-        {{ else }}
-        <span></span>
-        {{ end }}
-        <br>
-        <small>{{ .Site.Params.schema.city }}, {{ .Site.Params.schema.region }} </small>
-        <br>
-        <small>{{ .Site.Params.schema.postalcode }}</small>
-        <br>
-        <small>{{ .Site.Params.schema.country }}</small>
-
-      </address>    
+        <a href="mailto:{{ $.Site.Params.schema.email }}" class="pl-2 has-text-primary">{{ $.Site.Params.schema.email }}</a>
+          
+    </div>
 
     </div>
 

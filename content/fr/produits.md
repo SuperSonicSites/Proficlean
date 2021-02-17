@@ -1,29 +1,29 @@
 ---
-title: Services
-description: Services page
-bannerh1: Our Services
-layout: services
+title: Products
+description: Product page
+bannerh1: Our Products
+layout: products
 
-heading1: Want to get away from inefficient and complicated business processes?
-serviceintro: "Your needs may be complex but that doesn't mean your software has to be. Achieve success with a process that understands your company's unique needs and anticipates your potential and growth. We're here to strategize with you to discover the best possible service and deliver a flexible software that can grow with you.<br><br>
-We offer custom web, mobile, and desktop software capable of working across all mainstream browsers, OSes, and mobile platforms. These softwares belong in 3 main categories, namely, management of B2B, B2C interactions, and internal operations. They can scale to millions of users and offer pristine UX through a direct, coherent format and streamlined workflows.<br><br>Ready to jump on board?"
+product1: EkoCleaner - Probiotic Cleaner
+product1_desc1: Use Bacteria to Your Advantage For a Nontoxic, Environmentally-Friendly Cleaner
+product1_desc2: EkoCleaner is a probiotic cleaning product that is safe, effective, and environmentally-friendly. The all-purpose cleaner comes in zero-waste packaging, is highly concentrated, and is nontoxic, giving you peace of mind knowing your home is safe and healthy. Join a subscription to get the best deals today!
+product1_bullet1: Pet-Friendly
+product1_bullet2: Biodegradable
+product1_bullet3: Allergy-Friendly
+product1_bullet4: Not Tested on Animals
+product1_bullet5: Free of GMO & Preservatives
+product1_bullet6: Free of Harmful Chemicals and Toxins
+product1_bullet7: Not Harmful to Nature
+product1_bullet8: Concentrated to reduce carbon footprint
+product1_bullet9: Packed in zero waste packaging
 
-heading2: Our Software Development Process
+product1_heading2: Get a Safer, Healthier & Clean Home 
+product1_desc3: Probiotic cleaners use a balance of live bacteria to continue cleaning your home long after the product has been applied. Because bacteria is always changing its DNA, it’s nearly impossible to continue creating products that kill them entirely. Just like when you take probiotics to keep your body healthy in the same way by nurturing the good bacteria on the surfaces in our homes, we can help restore the healthy balance in our living spaces and free them of harmful and cancerogenic toxins, chemicals and pathogens.
 
-process1: Discovery
-process1_desc: Discover what's holding your company back from its full potential. We're here to walk you through that process, identifying the problems...and offering tangible solutions.
-process2: Planning & Execution
-process2_desc: Once we've identified the problems, it's time to design the solution! We'll strategize together and create a tailored product made just for you. 
-process3: Demo & Release
-process3_desc: Once you have your tailored software, it's time to try it out. How does it fit? Then you and your new process will be ready to get out there and thrive! 
+product2: Our Other Earth Friendly Products
+product2_desc1: Our mission is to help restore the healthy balance in your home and create an environment free of harmful toxins and chemicals regularly contained in the conventional cleaners and thus help save the planet one home at a time!<br><br>Our boutique strives to offer a selection of products that are GREEN & CLEAN! We offer our own line of hand-made Castile soaps and soap based cleaning solutions. We also constantly search and curate other sustainable products with the intent to create a one-stop-shop for sustainable, green and zero waste home-care.
 
-heading3: Choose Your Service Option
-heading3_sub: We only offer cutting-edge products to help you get the best customized modern technology out there. We're here to offer solutions to your problems and help you gain that competitive advantage. 
-
-service1: Software Consulting
-service1_desc: Custom software development was created to solve the problems that mass generic processes couldn't handle. Let us know your challenges. Our professionals are ready to troubleshoot the problems and find the best solutions for you.
-service2: End-to-end Software Development
-service2_desc: Our experts are equipped to handle whatever problem you can throw our way. We're here to support you through the whole development process, from the first analysis to the strategic planning and execution, to the demo and release. We'll see you through to success.
-service3: Legacy Software Modernization
-service3_desc: The goal of software development is to help your processes become more dexterous and efficient. We're available to re-code or re-architect your legacy solutions with up-to-date tech, increase their serviceability, relocate them to the cloud, and more. Need anything else? Just ask!
+cta: HAVE QUESTIONS ABOUT OUR PRODUCTS OR SERVICES?
+cta_sub: 
+cta_link: /contact
 ---
