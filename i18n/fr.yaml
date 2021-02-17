@@ -10,6 +10,8 @@
   translation: "Questions Fréquemment Posées"
 - id: appointment
   translation: "Sur Rendez-Vous"
+- id: freequote
+  translation: "Recevez un estimé gratuit"
 - id: learnmore
   translation: "En Savoir Plus"
 - id: firstname

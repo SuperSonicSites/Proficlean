@@ -1,125 +1,239 @@
 {{ define "main" }}
 <header class="hero is-fullheight is-bold gradient-background home">
 
-    <div class="hero-body">
-        
-      <div class="container is-flex is-column">
-          <div class="column is-8">
+  <div class="hero-body overlay">
 
-                    <p class="is-size-4 has-text-uppercase has-text-weight-bold" data-aos="fade-right" data-aos-duration="800">{{ .Params.hero1 | safeHTML }}</p>
-                    <h1 class="title is-size-1 my-3" data-aos="fade" data-aos-delay="500" data-aos-duration="800">
-                      Custom Software<span style='font-style: italic;'>Plus</span>
-                    </h1>
-                    
-                    <p class="subtitle mt-1 is-size-5" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
-                      {{ .Params.hero2 | safeHTML }}
-                    </p>
-                  </div>
-      </div>
-  
-    </div>
-  
-</header>
-<section class="section mt-5 has-background-white has-text-dark has-text-weight-bold">
-    <div class="container">
-    <div class="is-flex is-column is-justified-center is-aligned-center">
-        <h2 class="is-size-2 has-text-centered has-text-weight-bold">{{ .Params.heading1 }}</h2>
-        <p class="is-size-3 mt-1">Custom Software is a Phone Call Away 438-800-7544</p>
-    </div>
-</div>
-</section>
+    <div class="container is-flex is-column">
+      <div class="columns">
+        <div class="column is-8 has-text-white is-flex is-column is-justified-center">
 
-<section class="section">
-    <div class="container">
+          <p class="is-size-4 has-text-uppercase pl-1 has-text-weight-bold has-text-white has-text-shadow"
+            data-aos="fade-right" data-aos-duration="800">{{ .Params.hero1 | safeHTML }}</p>
 
-    <div class="columns">
-        <div class="column">
-            <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up" data-aos-duration="800">
-                <svg class="feature_icon">
-                    <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#cogs"></use>
-                  </svg>
-                <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit1 }}</h3>
-                <p class="has-text-centered has-font-size-small">{{ .Params.benefit1_desc }}</p>
-            </div>
-            
-        </div>
+          <h1 class="title is-size-1 my-3 has-text-white has-text-shadow" data-aos="fade" data-aos-delay="500"
+            data-aos-duration="800">
+            {{ .Params.hero2 | safeHTML }}
+          </h1>
 
-        <div class="column">
-            <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up" data-aos-duration="800">
-            <svg class="feature_icon">
-                <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#chart-bar"></use>
-              </svg>
-            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit2 }}</h3>
-            <p class="has-text-centered has-font-size-small">{{ .Params.benefit2_desc }}</p>
-        </div>
-        </div>
+          <h2 class="subtitle mt-1 is-size-3 has-text-white has-text-shadow " data-aos="fade-up" data-aos-delay="1000"
+            data-aos-duration="800">
+            {{ .Params.hero3 | safeHTML }}
+          </h2>
+          <div class="is-flex is-row" data-aos="fade" data-aos-delay="1500" data-aos-duration="800">
+            <div class="mr-2">
+              {{ if eq .Site.Language.Lang "fr" }}
+              <a class="button is-primary" title="Découvrez Nos Produits"
+                href="{{ $.Site.BaseURL }}fr/produits">Découvrez Nos Produits</a>
+              {{ else }}
+              <a class="button is-primary" title="Discover for Products" href="{{ $.Site.BaseURL }}products">Discover
+                Our Products</a>
+              {{ end }}
 
-        <div class="column">
-            <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up" data-aos-duration="800">
-            <svg class="feature_icon">
-                <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#lightbulb-on"></use>
-              </svg>
-            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit3 }}</h3>
-            <p class="has-text-centered has-font-size-small">{{ .Params.benefit3_desc }}</p>
-        </div>
             </div>
-    </div>
-</div>
-</section>
-<section class="section is-medium" data-aos="fade-up" data-aos-duration="800">
-    
-    <div class="container">
-        <h2 class="has-text-centered is-size-2 mb-5 pb-5 has-text-weight-bold">{{ .Params.heading2 }}</h2>
-    <div class="columns">
-        <div class="column is-7">
-            <p class="pr-5">{{ .Params.heading2_sub | safeHTML }}</p>
-        </div>
-        <div class="column is-5">
-            <img src="{{ $.Site.BaseURL }}img/customsoftware.jpg" class="has-shadow" alt="">
-        </div>
-    </div>
-</div>
-</section>
-<section class="section is-medium has-background-primary has-text-white testimonials" data-aos="fade-up" data-aos-duration="800">
-    <div class="container">
-        <h2 class="has-text-centered is-size-1 has-text-weight-bold">Testimonials</h2>
+            <div class="">
+              {{ if eq .Site.Language.Lang "fr" }}
+              <a class="button is-primary" title="Découvrez Nos Services"
+                href="{{ $.Site.BaseURL }}fr/services">Découvrez Nos Services</a>
+              {{ else }}
+              <a class="button is-primary" title="Discover Our Services" href="{{ $.Site.BaseURL }}services">Discover
+                Our Services</a>
+              {{ end }}
 
-        <div class="testimonials-section">
-            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide4" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide5" class="slider__nav"/>
-          <div class="slider__inner">
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">We love you guys. It's easy to order, we get shipments quick and my rep solves tough problems the right way. We get answers that work.</p>
-              <h2 class="slider__caption">Rhonda | NylonCraft</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">You all bend over backwards to get it done. Inside sales and the Account Managers are great! It's your service...you all know that it's not just about taking orders it's about service. Why do we choose you guys - your people, your prices, you're quick and you have a ton of technical knowledge.</p>
-              <h2 class="slider__caption">Jared | Rexam</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">It's the long-term relationship we have with Proheat that keeps me calling you guys. I trust you, you're quick, and everybody I've ever spoken to there are all great people. Our CEO, Bill, talks about building relationships. That's exactly what Proheat does, and I couldn't be happier.</p>
-              <h2 class="slider__caption">Chris | C&M Fine Pack</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">You answer my questions, always takes care of problems, and I never have a hassle.</p>
-              <h2 class="slider__caption">Rex | LNP Engineering Plastics</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">Proheat's staff are all so friendly and everybody goes above and beyond. Everyone is courteous, everything is quick and you get us what we need. I have to shop around for everything and we ALWAYS come back to Proheat.</p>
-              <h2 class="slider__caption">Darlene | Russel Stover</h2>
             </div>
           </div>
         </div>
+
+      </div>
     </div>
+  </div>
+
+</header>
+<section id="benefits-intro" class="section mt-5 has-background-white has-text-dark has-text-weight-bold">
+  <div class="container">
+    <div class="is-flex is-column is-justified-center is-aligned-center">
+      <h2 class="is-size-1 has-text-centered has-text-weight-bold pb-5">{{ .Params.heading1 }}</h2>
+      <p class="block has-text-centered has-text-weight-normal">{{ .Params.heading1_sub }}
+      </p>
+    </div>
+  </div>
 </section>
+
+<section id="benefits" class="section">
+  <div class="container">
+
+    <div class="columns">
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#leaf"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit1 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.benefit1_desc }}</p>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#paw"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit2 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.benefit2_desc }}</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#recycle"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit3 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.benefit3_desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="ekocleaner" class="section is-small" data-aos="fade-up" data-aos-duration="800">
+
+  <div class="container">
+    <h2 class="has-text-centered is-size-2 mb-5 pb-5 has-text-weight-bold">{{ .Params.heading2 }}</h2>
+    <div class="columns">
+      <div class="column is-8">
+        <p class="pr-5">{{ .Params.heading2_sub | safeHTML }}</p>
+      </div>
+      <div class="column is-4 is-flex is-column is-aligned-center is-justified-center">
+        <img src="{{ $.Site.BaseURL }}img/ekocleaner.jpg" alt="Ekocleaner">
+        <small class="has-text-centered pb-5">There's no risk for you, just try it out and see if it's for you. If not,
+          simply send us back your bottle (even if it's empty!) and we will refund all your money...AND you get to keep
+          the bonuses!</small>
+        <a href="https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/"
+          class="button is-primary">Order EkoCleaner Today!</a>
+      </div>
+    </div>
+    <div class="my-5 py-5">
+      <h2 class="has-text-centered is-size-2 mb-5 pb-5 has-text-weight-bold">{{ .Params.heading3 }}</h2>
+      <div class="columns">
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science1.png" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science2.png" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science3.png" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science4.png" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science5.png" alt="Ekocleaner Scientific Studies"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="section is-medium has-text-white testimonials has-background-primary">
+  <div class="container">
+    <h2 class="has-text-centered is-size-1 has-text-uppercase has-text-weight-bold pb-5 mb-5">Testimonials</h2>
+
+    <div class="columns is-5 " data-aos="fade-up" data-aos-duration="800">
+      <div class="column">
+        <div class="testimonial testimonial_1">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial1_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial1_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial1 }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="testimonial testimonial_2">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial2_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial2_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial2 }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-5" data-aos="fade-up" data-aos-duration="800">
+      <div class="column">
+        <div class="testimonial testimonial_1">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial3_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial3_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial3 }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="testimonial testimonial_2">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial4_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial4_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial4 }}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="pb-5 mb-5">
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold">OUR SERVICES</h2>
+  </div>
+    <div class="columns">
+      <div class="column">
+        <div class="service_box" data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/duotone.svg#vacuum"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service1 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service1_desc }}</p>
+        </div>
+          <div class="has-text-centered">
+            <a href="#" class="button is-primary">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="service_box " data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#building"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service2 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
+        </div>
+        <div class="has-text-centered">
+          <a href="#" class="button is-primary">Learn More</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="service_box" data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#home-heart"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service3 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
+          </div>
+          <div class="has-text-centered">
+          <a href="#" class="button is-primary">Learn More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 {{- partial "cta.html" .}}
 {{ end }}
-

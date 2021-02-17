@@ -10,6 +10,8 @@
   translation: "Frequently Asked Questions"
 - id: appointment
   translation: "On Appointment"
+- id: freequote
+  translation: "Get a Free Quote"
 - id: learnmore
   translation: "Learn More"
 - id: firstname
