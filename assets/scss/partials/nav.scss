@@ -21,11 +21,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-item img {
     max-height: 4rem;
+    max-width: 200px;
   }
   
   /* MENU STYLES */
   .mobile .navbar-brand {
-    width: 165px;
+    width: 165px !important;
   }
   .menu-wrap {
     position: fixed;
@@ -49,8 +50,8 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     top: 0px;
     right: 0px;
     z-index: 1;
-    width: 75px;
-    height: 95px;
+    width: 65px;
+    height: 80px;
     padding: 1rem 0.85rem;
     background: white;
     display: flex;
@@ -213,6 +214,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   @media(max-width: 968px) {
     .desktop {
         display: none;
+    }
+    .nav_logo {
+      width: 200px !important;
+    }
+    .navbar {
+      min-height: 100px;
     }
   }
   @media(min-width: 967px) {
