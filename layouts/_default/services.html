@@ -18,6 +18,19 @@
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service1 }}</h2>
                 <p class="block">{{ .Params.Service1_desc | safeHTML }}</p>
+
+                <p class="block"><svg class="warning_icon">
+                    <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#badge-dollar"></use>
+                  </svg><strong>{{ .Params.service1_bonus1 | safeHTML }}</strong></p>
+
+                  <p class="block"><svg class="warning_icon">
+                    <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#badge-dollar"></use>
+                  </svg><strong>{{ .Params.service1_bonus2 | safeHTML }}</strong></p>
+
+                  <p class="block"><svg class="warning_icon">
+                    <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#badge-dollar"></use>
+                  </svg><strong>{{ .Params.service1_bonus3 | safeHTML }}</strong></p>
+
                 <div class="mb-5"></div>
                 {{ if eq .Site.Language.Lang "fr" }}
                 <a class="button is-primary" 

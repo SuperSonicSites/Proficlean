@@ -8,7 +8,7 @@
         <div class="column is-12">
 
           <h2 class="title is-size-3">{{ i18n "contactus" }}</h2>
-          <p class="block py-2">We are always eager to hear from you and will do our best to review and revert as soon as possible!</p>
+          <p class="block py-2">We are always eager to hear from you and will do our best to reply as soon as possible!</p>
           
           <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
           
@@ -48,6 +48,18 @@
           
           </div>
 
+          <div class="field">
+            
+            <label class="label">{{ i18n "address" }} </label>
+            
+            <div class="control">
+            
+              <input class="input" type="address" placeholder="e.g. 9 Rue Saint-Pierre, Chateauguay, QC J6J 0A2">
+            
+            </div>
+          
+          </div>
+
 
           <div class="field">
             <label class="label">How may we help you?</label>
@@ -57,6 +69,7 @@
                     <select>
                       <option>General Questions</option>
                       <option>Residential Services</option>
+                      <option>Return Container</option>
                       <option>Commercial Services</option>
                       <option>Floor Cleaning Services</option>
                       <option>Subscription Questions</option>
@@ -82,11 +95,9 @@
       </div>
 
         
+    <p class="mt-5 pt-5">{{ .Params.returnpolicy | safeHTML }}</p>
+    </div>
 
-    </div>
-  </div>
-    
-    </div>
 
 </section>  
 

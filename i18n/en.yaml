@@ -12,6 +12,8 @@
   translation: "On Appointment"
 - id: freequote
   translation: "Get a Free Quote"
+- id: address
+  translation: "Mailing address to return containers ** READ BELOW"
 - id: learnmore
   translation: "Learn More"
 - id: firstname
@@ -22,8 +24,6 @@
   translation: "Phone"
 - id: email
   translation: "Email"
-- id: address
-  translation: "Address"
 - id: contactus
   translation: "Get in Touch"
 - id: contactdetail

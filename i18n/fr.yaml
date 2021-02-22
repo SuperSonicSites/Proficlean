@@ -12,6 +12,8 @@
   translation: "Sur Rendez-Vous"
 - id: freequote
   translation: "Recevez un estimé gratuit"
+- id: address
+  translation: "Adresse postale pour retourner le conteneur - LIRE CI-DESSOUS"
 - id: learnmore
   translation: "En Savoir Plus"
 - id: firstname
@@ -22,8 +24,6 @@
   translation: "Téléphone"
 - id: email
   translation: "Courriel"
-- id: address
-  translation: "Adresse"
 - id: contactus
   translation: "Entrez En Contact"
 - id: contactdetail
