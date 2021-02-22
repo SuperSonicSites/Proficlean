@@ -8,7 +8,7 @@
         <div class="column is-12">
 
           <h2 class="title is-size-3">{{ i18n "contactus" }}</h2>
-          <p class="block py-2">We are always eager to hear from you and will do our best to reply as soon as possible!</p>
+          <p class="block py-2">{{ .Params.intro }}</p>
           
           <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
           

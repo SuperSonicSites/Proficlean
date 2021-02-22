@@ -1,25 +1,24 @@
 ---
-title: About Us
-description: We are an environmentally conscious cleaning company in the region of Montreal, QC striving to bring sustainability to our industry and your homes!
-bannerh1: About Us
+title: À propos de nous
+description: Nous sommes une entreprise de nettoyage soucieuse de l'environnement dans la région de Montréal.
+bannerh1: À Propos
 layout: about
 
-heading1: We are an environmentally conscious cleaning company in the region of Montreal, QC striving to bring sustainability to our industry and your homes!
+heading1: Nous sommes une entreprise de nettoyage soucieuse de l'environnement dans la région de Montréal, QC qui s'efforce d'apporter la durabilité à notre industrie et à vos maisons!
+ 
+about1: "Après des années dans le secteur du nettoyage, nous avons développé de vastes connaissances et une expertise, mais nous sommes également devenus de plus en plus conscients de la nocivité des nettoyants conventionnels et de la façon dont les gens refusaient tout simplement de les laisser entrer chez eux! <br> <br> Trouver des solutions écologiques qui fourniraient des résultats vraiment professionnels à nos clients s'est avéré une tâche très difficile! Après recherche et recherche, nous avons finalement développé nos propres solutions qui se distingue par sa performance. La gamme de produits EkoAccent et la solution de nettoyage probiotique EkoCleaner sont nées! <br> <br> Notre mission est «Sauver la planète une maison à la fois! et nous nous efforçons constamment de faire exactement cela en aidant à rétablir l'équilibre sain dans les maisons de nos clients, en créant un environnement exempt de toxines nocives et de produits chimiques régulièrement contenus dans les nettoyants conventionnels et en choisissant délibérément des emballages qui aident à minimiser les déchets! <br> <br> Nous utilisons de l'aluminium, du verre et du papier et proposons un programme de «retour pour réutilisation» pour nos contenants. Nos coffrets d'abonnement vous offrent tout ce dont vous avez besoin pour le nettoyage écologique de votre maison et sont la première (et probablement la seule) option de nettoyage écologique zéro déchet sur le marché! <br> <br> Merci beaucoup pour votre intérêt et pour nous aider à sauver la planète une maison à la fois! <br> <br> Nous sommes impatients de vous accueillir dans notre famille de clients."
 
-about1: "After years in the cleaning business, we developed vast knowledge and expertise, but we also became more and more aware of how harmful conventional cleaners can be and how people were simply refusing to allow them in their homes anymore! <br><br>But finding eco-friendly solutions that would provide truly professional results for our clients proved to be a very difficult task! After searching and searching, we finally ended up developing our own solutions based on expertise and care and specifically selected and designed to tick all sustainability boxes!<br><br>
-The EkoAccent product line and the EkoCleaner probiotic cleaning solution were born!<br><br>Our mission is “Saving the Planet One Home at a Time!” and we constantly strive to do exactly that by helping restore the healthy balance in your homes, by creating an environment free of harmful toxins and chemicals regularly contained in the conventional cleaners and by deliberately choosing packaging that helps minimize waste and save resources!<br><br>We use aluminum, glass, and paper and offer a “return for reuse” program for our containers. Our subscription boxes give you everything you need for the green cleaning of your home and are the first (and probably the only) zero-waste green cleaning option on the market! <br><br>Thank you very much for your interest and for helping us save the planet one home at a time!<br><br>We are looking forward to welcoming you into our family of clients."
+heading2: Service client et assistance prioritaires
+box1: TEMPS DE RÉPONSE RAPIDE
+box1_desc: Il n'y a rien de pire que de demander de l'aide et de recevoir une réponse tardive, ou pas de réponse du tout! Nous accordons la priorité au temps de réponse rapide afin de pouvoir répondre à vos besoins. Si vous avez besoin d'un devis ou d'assistance, nous sommes toujours disponibles et prêts à vous aider.
 
-heading2: Priority Customer Service And Support
-box1: QUICK RESPONSE TIME
-box1_desc: There's nothing worse than asking for help and receiving a delayed response, or no answer at all! We prioritize a fast response time so we can address your needs in the moment. If you need a quote or assistance, we're always available and ready to help.
+box2: GARANTIE DE REMBOURSEMENT À 100%
+box2_desc: Si vous n'êtes pas entièrement satisfait par nos produits ... nous vous remboursons. Aucune question posée. Il n'y a aucun risque pour vous de tester nos produits. Essayez-le et voyez si c'est pour vous. Sinon, renvoyez-nous simplement votre bouteille (même si elle est vide!) Et nous vous rembourserons... ET vous garderez les bonus!
 
-box2: 100% MONEY BACK GUARANTEE
-box2_desc: If you are not entirely satisfied with our products...we refund you. No questions asked or gimmicks. There's no risk for you to test our products. Just try it out and see if it's for you. If not, simply send us back your bottle (even if it's empty!) and we will refund all your money...AND you get to keep the bonuses!
+box3: CONNAISSANCES SPÉCIALISÉES
+box3_desc: Ne vous contentez pas d'un produit générique qui s'avérera seulement dangereux pour vous, vos enfants ou vos animaux de compagnie. Nous nous spécialisons dans les produits et services de nettoyage de haute qualité qui rendent le monde meilleur. Nous apprécions l'honnêteté et le travail de qualité sur lesquels nos clients peuvent compter.
 
-box3: SPECIALIZED KNOWLEDGE
-box3_desc: Don't settle for a generic product that will only prove to be harmful to you, your children, or your pets. We specialize in high-quality cleaning products and services that make the world a better place. We value honesty and quality work that our customers can count on. 
-
-cta: HAVE QUESTIONS ABOUT OUR PRODUCTS OR SERVICES?
+cta: DES QUESTIONS SUR NOS PRODUITS OU SERVICES?
 cta_sub: 
 cta_link: /contact
 ---

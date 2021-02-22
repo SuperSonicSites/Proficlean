@@ -1,9 +1,10 @@
 ---
 title: Contact Page
-description: Contact Us! We are an environmentally conscious cleaning company in the region of Montreal, QC striving to bring sustainability to our industry and your homes!
+description: Nous sommes une entreprise de nettoyage soucieuse de l'environnement dans la région de Montréal. 
 layout: contact
 
 bannerh1: Contact Us
-
-returnpolicy: "** <strong>Return Containers:</strong> Once you have 10 of our containers/bottles you can return them to us for free! Just fill in the form above, choose the option 'Return Containers' from the dropdown menu and please ensure you give us your address and the dimensions and weight of your package in the Message section of the form. We will send you a label for you to ship them back to us for free.<br><br>If you have less than 10 containers/bottles you can also return for reuse, but the shipping will not be on us."
+ 
+intro: Nous sommes toujours impatients de rentrer en contact avec vous et ferons de notre mieux pour vous répondre dans les plus brefs délais!
+returnpolicy: "** <strong> Conteneurs de retour: </strong> Une fois que vous avez 10 de nos conteneurs / bouteilles, vous pouvez nous les retourner gratuitement! Remplissez simplement le formulaire ci-dessus, choisissez l'option `` Conteneurs de retour '' dans le menu déroulant et assurez-vous de nous donner votre adresse ainsi que les dimensions et le poids de votre colis dans la section Message du formulaire. Nous vous enverrons une étiquette pour que vous nous les renvoyiez gratuitement. <br> <br> Si vous avez moins de 10 contenants / bouteilles, vous pouvez également les renvoyer pour réutilisation, mais l'expédition ne sera pas à notre charge."
 ---
