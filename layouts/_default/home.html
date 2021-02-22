@@ -109,11 +109,9 @@
       </div>
       <div class="column is-4 is-flex is-column is-aligned-center is-justified-center">
         <img src="{{ $.Site.BaseURL }}img/ekocleaner.jpg" alt="Ekocleaner">
-        <small class="has-text-centered pb-5">There's no risk for you, just try it out and see if it's for you. If not,
-          simply send us back your bottle (even if it's empty!) and we will refund all your money...AND you get to keep
-          the bonuses!</small>
+        <small class="has-text-centered pb-5">{{ .Params.order_disclaimer }} </small>
         <a href="https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/"
-          class="button is-primary">Order EkoCleaner Today!</a>
+          class="button is-primary">{{ .Params.order }}</a>
       </div>
     </div>
     <div class="my-5 py-5">
@@ -135,7 +133,7 @@
 </section>
 <section id="testimonials" class="section is-medium has-text-white testimonials has-background-primary">
   <div class="container">
-    <h2 class="has-text-centered is-size-1 has-text-uppercase has-text-weight-bold pb-5 mb-5">Testimonials</h2>
+    <h2 class="has-text-centered is-size-1 has-text-uppercase has-text-weight-bold pb-5 mb-5">{{ i18n "testimonials" }}</h2>
 
     <div class="columns is-5 " data-aos="fade-up" data-aos-duration="800">
       <div class="column">
@@ -181,7 +179,7 @@
 <section class="section is-medium">
   <div class="container">
     <div class="pb-5 mb-5">
-    <h2 class="is-size-1 has-text-centered has-text-weight-bold">OUR SERVICES</h2>
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold">SERVICES</h2>
   </div>
     <div class="columns">
       <div class="column">
@@ -195,7 +193,12 @@
           <p class="has-text-centered has-font-size-small">{{ .Params.service1_desc }}</p>
         </div>
           <div class="has-text-centered">
-            <a href="{{ $.Site.BaseURL | relLangURL }}/services#floorcare" class="button is-primary">Learn More</a>
+            {{ if eq .Site.Language.Lang "fr" }}
+              <a href="{{ $.Site.BaseURL }}fr/services#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="{{ $.Site.BaseURL }}/services#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
+            
           </div>
         </div>
 
@@ -212,7 +215,11 @@
           <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
         </div>
         <div class="has-text-centered">
-          <a href="{{ $.Site.BaseURL | relLangURL }}/services#commercial" class="button is-primary">Learn More</a>
+          {{ if eq .Site.Language.Lang "fr" }}
+              <a href="{{ $.Site.BaseURL }}fr/services#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="{{ $.Site.BaseURL }}/services#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
         </div>
         </div>
       </div>
@@ -228,7 +235,11 @@
           <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
           </div>
           <div class="has-text-centered">
-          <a href="{{ $.Site.BaseURL | relLangURL }}/services#residential" class="button is-primary">Learn More</a>
+            {{ if eq .Site.Language.Lang "fr" }}
+            <a href="{{ $.Site.BaseURL }}fr/services#residential" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="{{ $.Site.BaseURL }}/services#residential" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
         </div>
         </div>
       </div>

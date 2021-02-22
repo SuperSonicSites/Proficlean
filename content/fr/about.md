@@ -2,6 +2,7 @@
 title: À propos de nous
 description: Nous sommes une entreprise de nettoyage soucieuse de l'environnement dans la région de Montréal.
 bannerh1: À Propos
+slug: a-propos
 layout: about
 
 heading1: Nous sommes une entreprise de nettoyage soucieuse de l'environnement dans la région de Montréal, QC qui s'efforce d'apporter la durabilité à notre industrie et à vos maisons!

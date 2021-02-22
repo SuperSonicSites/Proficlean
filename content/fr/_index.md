@@ -23,6 +23,9 @@ heading2_sub: "Les nettoyants probiotiques utilisent un équilibre de bactéries
 
 heading3: FORMULE BASÉE SUR LA RECHERCHE ET LA SCIENCE
 
+order_disclaimer: Il n'y a aucun risque pour vous, essayez-le et voyez si c'est pour vous. Sinon, renvoyez-nous simplement votre bouteille (même si elle est vide!) Et nous vous rembourserons tout votre argent ... ET vous garderez les bonus!
+order: Commandez EkoCleaner!
+
 Testimonial1_comment: "Efficace et sûr..."
 Testimonial1_name: Kerry S.
 Testimonial1: "Depuis que j'ai commencé à utiliser EkoCleaner, je me sens plus tranquille! Il est certainement aussi efficace, sinon meilleur que les produits chimiques agressifs que j'utilisais auparavant. On dirait que cela crée un type de couche protectrice - vraiment sympa."

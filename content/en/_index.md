@@ -23,6 +23,9 @@ heading2_sub: "Probiotic cleaners use a balance of live bacteria to continue cle
 
 heading3: RESEARCH AND SCIENCE-BASED FORMULA
 
+order_disclaimer: There's no risk for you, just try it out and see if it's for you. If not, simply send us back your bottle (even if it's empty!) and we will refund all your money...AND you get to keep the bonuses!
+order: Order EkoCleaner Today!
+
 Testimonial1_comment: "Effective and Safe..."
 Testimonial1_name: Kerry S.
 Testimonial1: "Ever since I started using this I  feel piece of mind!. It is definitely as effective, if not better than the harsh chemicals I was using before. Seems like it creates a type of a protective layer - really nice."

@@ -9,7 +9,7 @@ languages:
     contentDir: content/fr
     menu:
       main:
-        - name: Home
+        - name: Accueil
           url: '/'
           weight: 1
         - name: À Propos
