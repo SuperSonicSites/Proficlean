@@ -194,9 +194,9 @@
         </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}
-              <a href="{{ $.Site.BaseURL }}fr/services#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
+              <a href="{{ .Site.BaseURL }}fr/services#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
               {{ else }}
-              <a href="{{ $.Site.BaseURL }}/services#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
+              <a href="{{ .Site.BaseURL }}/services#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
               {{ end }}
             
           </div>
@@ -216,9 +216,9 @@
         </div>
         <div class="has-text-centered">
           {{ if eq .Site.Language.Lang "fr" }}
-              <a href="{{ $.Site.BaseURL }}fr/services#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
+              <a href="{{ .Site.BaseURL }}fr/services#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
               {{ else }}
-              <a href="{{ $.Site.BaseURL }}/services#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
+              <a href="{{ .Site.BaseURL }}/services#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
               {{ end }}
         </div>
         </div>
@@ -236,9 +236,9 @@
           </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}
-            <a href="{{ $.Site.BaseURL }}fr/services#residential" class="button is-primary">{{ i18n "learnmore" }}</a>
+            <a href="{{ .Site.BaseURL }}fr/services#residential" class="button is-primary">{{ i18n "learnmore" }}</a>
             {{ else }}
-            <a href="{{ $.Site.BaseURL }}/services#residential" class="button is-primary">{{ i18n "learnmore" }}</a>
+            <a href="{{ .Site.BaseURL }}/services#residential" class="button is-primary">{{ i18n "learnmore" }}</a>
             {{ end }}
         </div>
         </div>
