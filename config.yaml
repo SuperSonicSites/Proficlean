@@ -4,7 +4,7 @@ DefaultContentLanguage: en
 languages:
   fr:
     languageCode: fr
-    title: ProfiClean - Services et Produits de Nettoyage Probiotiques
+    title: ProfiClean
     description: ProfiClean offre des services de nettoyage exceptionnels et des produits de nettoyage probiotiques. Pour des services résidentiels et commerciaux et des produits pour votre maison, appelez dès aujourd'hui!
     contentDir: content/fr
     menu:
