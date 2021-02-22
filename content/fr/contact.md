@@ -1,5 +1,5 @@
 ---
-title: Contact Page
+title: Laissez nous un message
 description: Nous sommes une entreprise de nettoyage soucieuse de l'environnement dans la région de Montréal. 
 layout: contact
 

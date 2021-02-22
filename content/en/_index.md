@@ -1,5 +1,5 @@
 ---
-title: ProfiClean - Cleaning Services & Probiotic Cleaning Products
+title: Cleaning Services & Probiotic Cleaning Products
 description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
 
 hero1: SAFETY & QUALITY with 

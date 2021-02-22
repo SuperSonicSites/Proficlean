@@ -1,5 +1,5 @@
 ---
-title: Products
+title: Healthy & Eco-Friednly Cleaning Products
 description: We offer is a probiotic cleaning product that is safe, effective, and environmentally-friendly. The all-purpose cleaner comes in zero-waste packaging. Relax in knowing that your home is clean, safe, and healthy!
 bannerh1: Our Products
 layout: products

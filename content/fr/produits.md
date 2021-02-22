@@ -1,5 +1,5 @@
 ---
-title: Les produits EkoCleaner et notre gamme EkoAccent
+title: Les produits EkoCleaner et la gamme EkoAccent
 description: WNous proposons un produit de nettoyage probiotique sûr, efficace et écologique. Le nettoyant tout usage est livré dans un emballage zéro déchet.
 bannerh1: Nos produits
 layout: products

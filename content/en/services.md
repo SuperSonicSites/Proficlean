@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Residential & Commercial Cleaning Services
 description: We offer floor care, residential and commercial cleaning services in the greater Montreal area. Get a free quote today!
 bannerh1: Our Services
 layout: services

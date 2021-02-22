@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: About Proficlean and Our Mission
 description: We are an environmentally conscious cleaning company in the region of Montreal, QC striving to bring sustainability to our industry and your homes!
 bannerh1: About Us
 layout: about
