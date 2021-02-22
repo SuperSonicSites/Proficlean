@@ -40,8 +40,8 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     right: 0px;
     z-index: 2;
     cursor: pointer;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     opacity: 0;
   }
   
@@ -51,7 +51,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     right: 0px;
     z-index: 1;
     width: 65px;
-    height: 80px;
+    height: 70px;
     padding: 1rem 0.85rem;
     background: white;
     display: flex;
@@ -138,7 +138,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     background: $primary;
     border-radius: 20%;
     width: 200vw;
-    height: 200vw;
+    height: 250vw;
     display: flex;
     flex: none;
     align-items: center;
@@ -218,9 +218,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     .nav_logo {
       width: 200px !important;
     }
-    .navbar {
-      min-height: 100px;
-    }
+ 
   }
   @media(min-width: 967px) {
     .mobile {

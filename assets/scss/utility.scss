@@ -23,7 +23,7 @@ footer a {
     box-shadow: 0 0 25px 0px rgba(0,0,0,0.25);
 }
 .button {
-	font-size: 1.2rem;
+	font-size: 1.15rem;
 }
 /* Responsive Utility */
 .responsiveIframe {
@@ -39,7 +39,9 @@ footer a {
 	width: 100%;
 	height: 100%;
 }
-
+.w-100 {
+	width: 100%;
+}
 /* Flex utility */
 .is-flex {
 	display: flex;
@@ -67,5 +69,8 @@ footer a {
 	}
 	.is-aligned-center-touch {
 		align-items: center;
+	}
+	.is-justified-center-touch {
+		justify-content: center;
 	}
 }

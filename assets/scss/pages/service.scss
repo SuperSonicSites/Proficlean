@@ -13,3 +13,11 @@
     fill: $secondary;
     margin-right: 10px;
 }
+@media(max-width: 768px) {
+#floorcare, #commercial, #residential {
+  margin-top: -70px;
+}
+.floorcare_content  {
+  margin-bottom: 70px;
+}
+}

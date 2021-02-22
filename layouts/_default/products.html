@@ -73,7 +73,7 @@
         <p class="block">{{ .Params.product1_desc3 }}</p>
         <div class="py-1"></div>
         <h3 class="is-size-5 has-text-weight-bold has-text-uppercase pb-3">{{ .Params.product1_cta }}</h3>
-        <a href="https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/" class="button is-primary mt-5">Start Your EkoCleaner Subscription</a>
+        <a href="https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/" class="button is-primary mt-5">{{ .Params.start }}</a>
 
     </div>
 </section>
@@ -84,11 +84,11 @@
             <div class="column is-8">
                 <p class="block">{{ .Params.product2_desc1 | safeHTML }}</p>
                 <div class="py-1"></div>
-                <a href="https://www.ekoaccent.com/en/homepage" class="button is-primary">Visit Our Online Shop</a>
+                <a href="https://www.ekoaccent.com/en/homepage" class="button is-primary">{{ .Params.start2 }}</a>
             </div>
             <div class="column is-4">
                 <img
-                    src="{{ $.Site.BaseURL }}img/product2.jpg" class="has-shadow lazyload" alt="">
+                    src="{{ $.Site.BaseURL }}img/product2.jpg" class="has-shadow lazyload w-100" alt="">
             </div>
         </div>
     </div>

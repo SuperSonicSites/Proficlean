@@ -3,18 +3,18 @@
 <section>
     <div class="container">
 <div class="columns my-4" data-aos="fade" data-aos-delay="500" data-aos-duration="800">
-    <div class="column p-5"><img src="{{ $.Site.BaseURL }}img/Badge-1.png" class="lazyload" alt=""></div>
-    <div class="column p-5"><img src="{{ $.Site.BaseURL }}img/Badge-2.png" class="lazyload" alt=""></div>
-    <div class="column p-5"><img src="{{ $.Site.BaseURL }}img/Badge-3.png" class="lazyload" alt=""></div>
-    <div class="column p-5"><img src="{{ $.Site.BaseURL }}img/Badge-4.png" class="lazyload" alt=""></div>
-    <div class="column p-5"><img src="{{ $.Site.BaseURL }}img/Badge-5.png" class="lazyload" alt=""></div>
+    <div class="column is-flex is-justified-center p-5"><img src="{{ $.Site.BaseURL }}img/Badge-1.png" class="lazyload" alt=""></div>
+    <div class="column is-flex is-justified-center p-5"><img src="{{ $.Site.BaseURL }}img/Badge-2.png" class="lazyload" alt=""></div>
+    <div class="column is-flex is-justified-center p-5"><img src="{{ $.Site.BaseURL }}img/Badge-3.png" class="lazyload" alt=""></div>
+    <div class="column is-flex is-justified-center p-5"><img src="{{ $.Site.BaseURL }}img/Badge-4.png" class="lazyload" alt=""></div>
+    <div class="column is-flex is-justified-center p-5"><img src="{{ $.Site.BaseURL }}img/Badge-5.png" class="lazyload" alt=""></div>
 </div>
 </div>
 </section>
 <section id="floorcare" class="section is-small" data-aos="fade" data-aos-delay="500" data-aos-duration="800">
     <div class="container">
         <div class="columns">
-            <div class="column is-8">
+            <div class="column is-8 floorcare_content">
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service1 }}</h2>
                 <p class="block">{{ .Params.Service1_desc | safeHTML }}</p>
@@ -45,7 +45,7 @@
     <section id="commercial" class="section is-small" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
         <div class="container">
         <div class="columns mb-5 pb-5">
-            <div class="column is-8">
+            <div class="column is-8 floorcare_content">
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service2 }}</h2>
                 <p class="block">{{ .Params.Service2_desc | safeHTML }}</p>
@@ -70,7 +70,7 @@
     <section id="residential" class="section is-small"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
         <div class="container">
         <div class="columns mb-5 pb-5">
-            <div class="column is-8">
+            <div class="column is-8 floorcare_content">
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service3 }}</h2>
                 <p class="block">{{ .Params.Service3_desc | safeHTML }}</p>
