@@ -7,7 +7,7 @@ hero2: ProfiClean
 hero3: Exceptional cleaning services and top-of-the-line probiotic cleaning products. 
 
 heading1: DISCOVER THE BEST WAY TO ENJOY A HEALTHIER LIVING SPACE
-heading1_sub: Proficlean developed EkoCleaner, a probiotic cleaning product that is safe, effective, and environmentally-friendly. This amazing all-purpose cleaner comes in zero-water packaging that you can return for reuse for free! It is highly concentrated and designed to save you money and to save the planet from waster. It's free of harmful chemicals and toxins giving you peace of mind knowing that your home is safe and healthy. All you'll ever need for your green and healthy home cleaning. Try it today or subscribe for even more saving and peace of mind.
+heading1_sub: Proficlean developed EkoCleaner, a probiotic cleaning product that is safe, effective, and environmentally-friendly. This amazing all-purpose cleaner comes in zero-waste packaging that you can return for reuse for free! It is highly concentrated and designed to save you money and to save the planet from waster. It's free of harmful chemicals and toxins giving you peace of mind knowing that your home is safe and healthy. All you'll ever need for your green and healthy home cleaning. Try it today or subscribe for even more saving and peace of mind.
 
 benefit1: Biodegradable
 benefit1_desc: Ekocleaner is fully biodegradable within 28 days! Just like when you take probiotics to restore your body's natural balance, using probiotics on the surfaces in your home helps restore the natural healthy balance in your living spaces. 

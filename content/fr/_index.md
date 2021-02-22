@@ -1,55 +1,55 @@
 ---
-title: ProfiClean - Cleaning Services & Probiotic Cleaning Products
-description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
+title: Services et Produits de Nettoyage Probiotiques
+description: ProfiClean offre des services de nettoyage exceptionnels et des produits de nettoyage probiotiques. Pour des services résidentiels et commerciaux et des produits pour votre maison, appelez dès aujourd'hui!
 
-hero1: SAFETY & QUALITY with 
+hero1: SÉCURITÉ ET QUALITÉ avec
 hero2: ProfiClean 
-hero3: Exceptional cleaning services and top-of-the-line probiotic cleaning products. 
+hero3: Des services de nettoyage exceptionnels et des produits de nettoyage probiotiques haut de gamme.
+ 
+heading1: DÉCOUVREZ LA MEILLEURE FAÇON DE PROFITER D'UN ESPACE DE VIE PLUS SAIN
+heading1_sub: Proficlean a développé EkoCleaner, un produit de nettoyage probiotique qui est sûr, efficace et écologique. Cet incroyable nettoyant tout usage est livré dans un emballage zéro déchet que vous pouvez retourner gratuitement pour réutilisation! Il est hautement concentré et conçu pour vous faire économiser de l'argent et pour sauver la planète du gaspillage. Il est exempt de produits chimiques nocifs et de toxines, ce qui vous donne la tranquillité d'esprit en sachant que votre maison est sûre et saine. Tout ce dont vous aurez besoin pour un nettoyage écologique et sain. Essayez-le aujourd'hui ou abonnez-vous pour encore plus d'économies et de tranquillité d'esprit.
 
-heading1: DISCOVER THE BEST WAY TO ENJOY A HEALTHIER LIVING SPACE
-heading1_sub: Proficlean developed EkoCleaner, a probiotic cleaning product that is safe, effective, and environmentally-friendly. This amazing all-purpose cleaner comes in zero-water packaging that you can return for reuse for free! It is highly concentrated and designed to save you money and to save the planet from waster. It's free of harmful chemicals and toxins giving you peace of mind knowing that your home is safe and healthy. All you'll ever need for your green and healthy home cleaning. Try it today or subscribe for even more saving and peace of mind.
+benefit1: Biodégradable
+benefit1_desc: Ekocleaner est entièrement biodégradable en 28 jours! Tout comme lorsque vous prenez des probiotiques pour rétablir l'équilibre naturel de votre corps, l'utilisation de probiotiques sur les surfaces de votre maison aide à rétablir l'équilibre naturel dans vos espaces de vie. 
 
-benefit1: Biodegradable
-benefit1_desc: Ekocleaner is fully biodegradable within 28 days! Just like when you take probiotics to restore your body's natural balance, using probiotics on the surfaces in your home helps restore the natural healthy balance in your living spaces. 
+benefit2: Sans Danger Pour Les Animaux
+benefit2_desc: Si vous avez des animaux domestiques ou des enfants à la maison, vous n'avez pas à vous soucier des interactions nocives ou des effets à long terme sur la santé.
 
-benefit2: Pet-friendly
-benefit2_desc: If you have pets or kids around the house, there's no need to worry about any harmful interactions or long-term health effects. 
+benefit3: Écologique
+benefit3_desc: La formule est hautement concentrée pour réduire l'empreinte carbone pendant le transport. Nous utilisons des bouteilles en verre que vous pouvez recycler et nous renvoyer pour une réutilisation gratuite.
 
-benefit3: Environmentally-Friendly
-benefit3_desc: The formula is highly concentrated to reduce EkoCleaner's carbon footprint during transport. We use glass bottles that you can recycle and return to us for free reuse.
+heading2: PROBIOTIQUES POUR UNE MAISON SAINE ET UNE PLANÈTE EN SANTÉ
+heading2_sub: "Les nettoyants probiotiques utilisent un équilibre de bactéries vivantes pour continuer à nettoyer votre maison longtemps après l'application du produit. Parce que les bactéries changent constamment leur ADN, il est presque impossible de continuer à créer des produits qui les tuent complètement. Tout comme lorsque vous prenez des probiotiques pour garder votre corps en bonne santé, ils peuvent être utilisés dans nos espaces de vie pour aider à nettoyer de manière beaucoup plus durable et écologique. Les probiotiques sont exempts de toxines, de produits chimiques et d'agents pathogènes nocifs et cancérigènes. <br> <br> Utilisez les bactéries à votre avantage! Il n'est pas rare que les gens pensent que toutes les bactéries sont mauvaises, mais ce n'est pas vrai! Il existe certains types de bonnes bactéries, qui sont en fait essentielles pour notre santé et l'équilibre naturel de notre environnement. Et les bonnes bactéries sont au cœur des produits de nettoyage probiotiques de ProfiClean. Nous sommes fiers de NE PAS TUER 99,9% de tous les organismes vivants, mais plutôt d'utiliser les pouvoirs de la nature pour aider à rétablir l'équilibre sain sur les surfaces de votre maison. Si vous recherchez une façon plus saine et plus durable de nettoyer votre maison ou votre entreprise, apprenez-en plus sur les nettoyants probiotiques et essayez les produits EkoCleaner dès aujourd'hui!"
 
-heading2: PROBIOTICS FOR A HEALTHY HOME<br>AND A CLEAN PLANET
-heading2_sub: "Probiotic cleaners use a balance of live bacteria to continue cleaning your home long after the product has been applied. Because bacterias are always changing their DNA, it's nearly impossible to continue creating products that kill them entirely. Just like when you take probiotics to keep your body healthy, they can be used in our living spaces to help clean in a much more sustainable and eco-friendly way. Probiotics are free from harmful and cancerogenic toxins, chemicals, and pathogens.<br><br>Use bacterias to your advantage! It's not unusual for people to think that all bacterias are bad, but that's not true! There are certain types of good bacteria, which are actually essential for our health and the natural balance of our environment. And good bacteria is at the core of probiotic cleaning products from ProfiClean. We take pride in NOT KILLING 99.9% of all living organisms, but rather using nature's own powers to help restore the healthy balance on the surfaces. If you're looking for a healthier and more sustainable way to clean your home or business, learn more about probiotic cleaners and try EkoCleaner products today!"
+heading3: FORMULE BASÉE SUR LA RECHERCHE ET LA SCIENCE
 
-heading3: RESEARCH AND SCIENCE-BASED FORMULA
-
-Testimonial1_comment: "Effective and Safe..."
+Testimonial1_comment: "Efficace et sûr..."
 Testimonial1_name: Kerry S.
-Testimonial1: "Ever since I started using this I  feel piece of mind!. It is definitely as effective, if not better than the harsh chemicals I was using before. Seems like it creates a type of a protective layer - really nice."
+Testimonial1: "Depuis que j'ai commencé à utiliser EkoCleaner, je me sens plus tranquille! Il est certainement aussi efficace, sinon meilleur que les produits chimiques agressifs que j'utilisais auparavant. On dirait que cela crée un type de couche protectrice - vraiment sympa."
 
-Testimonial2_comment: "Small but powerful..."
+Testimonial2_comment: "Petit mais puissant..."
 Testimonial2_name: Daisy R.
-Testimonial2: "It is amazing how this small bottle makes 5 regular size bottles with the same if not better efficiency! I was able to replace so many of the toxic and harsh chemicals I had at home! Amazing!"
+Testimonial2: "Il est étonnant de voir comment cette petite bouteille permet de fabriquer 5 bouteilles de taille régulière avec la même efficacité sinon meilleure! J'ai pu remplacer tant de produits chimiques toxiques et agressifs que j'avais à la maison! Incroyable!"
 
-Testimonial3_comment: Finally a zero waste solution!
+Testimonial3_comment: Enfin une solution zéro déchet!
 Testimonial3_name: Marie P.
-Testimonial3: "I absolutely love this product!!!! Not only is it safe for me and the environment, but it comes in a glass bottle that I can return to the company for reuse AND I don't even have to pay for postage once I have 10 bottles for return! Thank you EkoCleaner for finally making it possible for me to achieve my zero waste goals in my cleaning as well! "
+Testimonial3: "J'adore ce produit!!! Non seulement il est sans danger pour moi et l'environnement, mais il est livré dans une bouteille en verre que je peux retourner à l'entreprise pour une réutilisation ET je n'ai même pas à payer les frais de port une fois que j'ai 10 bouteilles pour le retour! Merci EkoCleaner de m'avoir enfin permis d'atteindre mes objectifs de zéro déchet dans mon nettoyage!"
 
-Testimonial4_comment: It really does make a difference...
+Testimonial4_comment: Ça fait vraiment une différence...
 Testimonial4_name: Steve J.
-Testimonial4: Amazing product! Thank you!"
+Testimonial4: Produit incroyable! Merci!
 
-service1: FLOOR CARE
-service1_desc: Maintain your floors and ensure a healthy and safe environment in your establishment while saving big on repairs and maintenance at the same time!
+service1: ENTRETIEN DE PLANCHER
+service1_desc: Entretenez vos planchers et assurez un environnement sain et sécuritaire dans votre établissement tout en économisant gros sur les réparations et l'entretien!
 
-service2: COMMERCIAL CLEANING
-service2_desc: We service the Montreal and grand Montreal region offering high-quality, professional cleaning, and disinfection services to small & medium commercial clients and concierge services to condo associations.
+service2: NETTOYAGE COMMERCIAL
+service2_desc: Nous desservons la région de Montréal et du Grand Montréal en offrant des services professionnels de nettoyage et de désinfection de haute qualité aux petites et moyennes entreprises et des services de conciergerie aux associations de condos.
 
-service3: RESIDENTIAL CLEANING
-service3_desc: We actively promote and encourage the use of green cleaning materials and solutions to ensure your home is sparkling and most importantly safe!
+service3: NETTOYAGE RÉSIDENTIEL
+service3_desc: Nous promouvons et encourageons activement l'utilisation de matériaux et de solutions de nettoyage écologiques pour garantir que votre maison soit étincelante et surtout sûre!
 
 
-cta: QUESTIONS ABOUT OUR PRODUCTS OR SERVICES?
+cta: DES QUESTIONS SUR NOS PRODUITS OU SERVICES?
 cta_sub: 
 cta_link: /contact
 ---
