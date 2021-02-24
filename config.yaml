@@ -1,5 +1,6 @@
 baseURL: "https://www.proficlean.ca/"
 DefaultContentLanguage: en
+relativeURLs: true
 
 languages:
   fr:
