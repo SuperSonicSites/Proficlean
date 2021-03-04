@@ -14,58 +14,47 @@
           
             <div class="field">
           
-              <label class="label">{{ i18n "firstname" }} *</label>
-                 
-              <div class="control">
+              <label class="label" for="form_name">{{ i18n "firstname" }} *</label>
           
                 <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
           
-              </div>
           
             </div>
           
           <div class="field">
             
-            <label class="label">{{ i18n "email" }} *</label>
+            <label class="label" for="email">{{ i18n "email" }} *</label>
+
             
-            <div class="control">
+              <input id="email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
             
-              <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
-            
-            </div>
           
           </div>
 
           <div class="field">
             
-            <label class="label">{{ i18n "phone" }}</label>
+            <label for="phone" class="label">{{ i18n "phone" }}</label>
             
-            <div class="control">
-            
-              <input class="input" type="tel" placeholder="e.g. +1-234-567-7890">
-            
-            </div>
-          
+              <input id="phone" class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+
           </div>
 
           <div class="field">
             
-            <label class="label">{{ i18n "address" }} </label>
+            <label for="address" class="label">{{ i18n "address" }} </label>
+
             
-            <div class="control">
+              <input id="address" class="input" type="address" placeholder="e.g. 9 Rue Saint-Pierre, Chateauguay, QC J6J 0A2">
             
-              <input class="input" type="address" placeholder="e.g. 9 Rue Saint-Pierre, Chateauguay, QC J6J 0A2">
-            
-            </div>
+
           
           </div>
 
 
           <div class="field">
-            <label class="label">How may we help you?</label>
+            <label for="service" class="label">How may we help you?</label>
 
-                <div class="control">
-                  <div class="select is-fullwidth">
+                  <div id="service" class="select is-fullwidth">
                     <select>
                       <option>General Questions</option>
                       <option>Residential Services</option>
@@ -76,7 +65,6 @@
                       <option>Free Quote</option>
                     </select>
                   </div>
-                </div>
 
           </div>
 
@@ -102,3 +90,4 @@
 </section>  
 
 {{ end }}
+
