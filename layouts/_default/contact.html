@@ -26,7 +26,7 @@
             <label class="label" for="email">{{ i18n "email" }} *</label>
 
             
-              <input id="email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
+              <input id="email" class="input" type="email" name="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
             
           
           </div>
@@ -35,7 +35,7 @@
             
             <label for="phone" class="label">{{ i18n "phone" }}</label>
             
-              <input id="phone" class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+              <input id="phone" class="input" type="tel" name="phone" placeholder="e.g. +1-234-567-7890">
 
           </div>
 
@@ -44,7 +44,7 @@
             <label for="address" class="label">{{ i18n "address" }} </label>
 
             
-              <input id="address" class="input" type="address" placeholder="e.g. 9 Rue Saint-Pierre, Chateauguay, QC J6J 0A2">
+              <input id="address" class="input" type="address" name="Address" placeholder="e.g. 9 Rue Saint-Pierre, Chateauguay, QC J6J 0A2">
             
 
           
@@ -54,7 +54,7 @@
           <div class="field">
             <label for="service" class="label">How may we help you?</label>
 
-                  <div id="service" class="select is-fullwidth">
+                  <div id="service" class="select is-fullwidth" name="services">
                     <select>
                       <option>General Questions</option>
                       <option>Residential Services</option>
@@ -72,7 +72,7 @@
 
           <label for="form_message"><strong>Message *</strong></label>
 
-              <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
+              <textarea id="form_message" name="Message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
        
         </div>
         <div class="is-flex is-justified-start">
