@@ -73,8 +73,10 @@
         <p class="block">{{ .Params.product1_desc3 }}</p>
         <div class="py-1"></div>
         <h3 class="is-size-5 has-text-weight-bold has-text-uppercase pb-3">{{ .Params.product1_cta }}</h3>
-        <a href="{{ .Params.link_ekocleaner }}" class="button is-primary mt-5">{{ .Params.start }}</a>
-
+        <div class="is-flex is-row">
+        <a href="{{ .Params.link_ekocleaner }}" class="button is-primary mt-5 mr-2">{{ .Params.start }}</a>
+        <a href="{{ .Params.link_ekocleaner_subscribe }}" class="button is-primary mt-5">{{ .Params.subscribe }}</a>
+    </div>
     </div>
 </section>
 <section class="section" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">

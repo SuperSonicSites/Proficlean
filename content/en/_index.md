@@ -25,6 +25,7 @@ heading3: RESEARCH AND SCIENCE-BASED FORMULA
 
 order_disclaimer: There's no risk for you, just try it out and see if it's for you. If not, simply send us back your bottle (even if it's empty!) and we will refund all your money...AND you get to keep the bonuses!
 order: Order EkoCleaner Today!
+link: https://www.ekoaccent.com/en/product/toxic-free-all-surface-cleaner-with-probiotics-in-zero-waste-packaging/
 
 Testimonial1_comment: "Effective and Safe..."
 Testimonial1_name: Kerry S.

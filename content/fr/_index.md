@@ -25,6 +25,7 @@ heading3: FORMULE BASÉE SUR LA RECHERCHE ET LA SCIENCE
 
 order_disclaimer: Il n'y a aucun risque pour vous, essayez-le et voyez si c'est pour vous. Sinon, renvoyez-nous simplement votre bouteille (même si elle est vide!) Et nous vous rembourserons tout votre argent ... ET vous garderez les bonus!
 order: Commandez EkoCleaner!
+link: https://www.ekoaccent.com/fr/produit/nettoyant-toutes-surfaces-sans-toxines-avec-des-probiotiques-dans-un-emballage-zero-dechet
 
 Testimonial1_comment: "Efficace et sûr..."
 Testimonial1_name: Kerry S.
