@@ -7,7 +7,7 @@ layout: products
 product1: EkoCleaner - Nettoyant Probiotique
 product1_desc1: Utilisez les bactéries à votre avantage pour un nettoyage non toxique et respectueux de l'environnement qui se continue même une fois que vous avez terminé!
 
-product1_desc2: EkoCleaner est un produit de nettoyage probiotique qui est sûr, efficace et écologique. Le nettoyant tout usage est livré dans un emballage zéro déchet. Il est hautement concentré et exempt de toxines nocives. Détendez-vous en sachant que votre maison est propre, sûre et saine!
+product1_desc2: EkoCleaner est un produit de nettoyage probiotique qui est sûr, efficace et écologique. Le nettoyant tout usage est livré dans un emballage zéro déchet. Il est hautement concentré et exempt de toxines nocives. Détendez-vous en sachant que votre maison est propre, sûre et saine! <strong>Chaque bouteille de nettoyant probiotique concentré donne 5 flacons pulvérisateurs de 500 ml, il suffit de mélanger avec de l'eau!</strong>
 
 product1_cta: Obtenez EkoCleaner pour votre maison aujourd'hui!
 product1_bullet1: Sain pour les animaux

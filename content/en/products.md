@@ -6,7 +6,7 @@ layout: products
 
 product1: EkoCleaner - Probiotic Cleaner
 product1_desc1: Use Bacterias to Your Advantage For a Nontoxic, Environmentally-Friendly Cleaning that continues even after you are done!
-product1_desc2: EkoCleaner is a probiotic cleaning product that is safe, effective, and environmentally-friendly. The all-purpose cleaner comes in zero-waste packaging. It is highly concentrated and free of harmful toxins. Relax in knowing that your home is clean, safe, and healthy!
+product1_desc2: EkoCleaner is a probiotic cleaning product that is safe, effective, and environmentally-friendly. The all-purpose cleaner comes in zero-waste packaging. It is highly concentrated and free of harmful toxins. Relax in knowing that your home is clean, safe, and healthy! <strong>Each bottle of concentrated probiotic cleaner makes 5x 500ml spray bottles, just mix with water!</strong>
 product1_cta: Get EkoCleaner For Your Home Today!
 product1_bullet1: Pet-Friendly
 product1_bullet2: Biodegradable
@@ -19,7 +19,7 @@ product1_bullet8: Concentrated to reduce carbon footprint
 product1_bullet9: Packed in zero waste packaging
 
 product1_heading2: Get a Safer, Healthier & Clean Home 
-product1_desc3: Probiotic cleaners use a balance of live bacteria to continue cleaning your home long after the product has been applied. Because bacterias are always changing their DNA, it’s nearly impossible to continue creating products that kill them entirely. Just like when you take probiotics to keep your body healthy in the same way by nurturing the good bacteria on the surfaces in our homes, we can help restore the healthy balance in our living spaces and free them of harmful and cancerogenic toxins, chemicals, and pathogens.
+product1_desc3: Probiotic cleaners use a balance of live bacteria to continue cleaning your home long after the product has been applied. Because bacterias are always changing their DNA, it’s nearly impossible to continue creating products that kill them entirely. Just like when you take probiotics to keep your body healthy in the same way by nurturing the good bacteria on the surfaces in our homes, we can help restore the healthy balance in our living spaces and free them of harmful and cancerogenic toxins, chemicals, and pathogens. 
 start: Get Started With EkoCleaner
 link_ekocleaner: https://www.ekoaccent.com/en/product/toxic-free-all-surface-cleaner-with-probiotics-in-zero-waste-packaging/
 
