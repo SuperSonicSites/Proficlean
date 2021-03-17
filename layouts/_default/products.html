@@ -16,17 +16,21 @@
         <h3 class="is-size-5 has-text-weight-bold has-text-uppercase pb-3">
             {{ .Params.product1_cta }}
           </h3>
-          <div class="is-flex is-row mb-5">
+          <div class="is-flex is-column mb-5">
+            <div class="">
             <a
               href="{{ .Params.link_ekocleaner }}"
               class="button is-primary mt-5 mr-2"
               >{{ .Params.start }}</a
             >
+          </div>
+          <div class="">
             <a
               href="{{ .Params.link_ekocleaner_subscribe }}"
               class="button is-primary mt-5"
               >{{ .Params.subscribe }}</a
             >
+          </div>
           </div>
       </div>
       <div class="column is-4 is-flex is-justified-center is-aligned-center">
@@ -140,7 +144,7 @@
       <div class="column is-4">
         <img
           src="{{ $.Site.BaseURL }}img/product2.jpg"
-          class="has-shadow lazyload w-100"
+          class="lazyload w-100"
           alt=""
         />
       </div>
