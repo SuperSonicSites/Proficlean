@@ -21,7 +21,7 @@ product1_bullet9: Packed in zero waste packaging
 product1_heading2: Get a Safer, Healthier & Clean Home 
 product1_desc3: Probiotic cleaners use a balance of live bacteria to continue cleaning your home long after the product has been applied. Because bacterias are always changing their DNA, it’s nearly impossible to continue creating products that kill them entirely. Just like when you take probiotics to keep your body healthy in the same way by nurturing the good bacteria on the surfaces in our homes, we can help restore the healthy balance in our living spaces and free them of harmful and cancerogenic toxins, chemicals, and pathogens. 
 start: Get Started With EkoCleaner
-link_ekocleaner: https://www.ekoaccent.com/en/product/toxic-free-all-surface-cleaner-with-probiotics-in-zero-waste-packaging/
+link_ekocleaner: https://www.ekoaccent.com/en/product/probiotic-all-surface-cleaner-in-zero-waste-packaging-free-of-harmful-toxins
 
 subscribe: Get Monthly Autoship
 link_ekocleaner_subscribe: https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/

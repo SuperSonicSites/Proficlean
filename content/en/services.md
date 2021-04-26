@@ -4,7 +4,7 @@ description: We offer floor care, residential and commercial cleaning services i
 bannerh1: Our Services
 layout: services
 
-Service1: Floor Care Services
+Service1: Commercial Floor Care Services
 Service1_desc: Professionally clean your floors and ensure a healthy and safe environment for you, your team, and your clients, while saving the planet at the same time. Save thousands of dollars in repairs and replacements by prolonging the life of your floors for years with proper care at a fraction of the cost!
 service1_bonus1: FREE disinfection or assessment for your premises - Minimum $300 Value 
 service1_bonus2: FREE COVID-19 Preventative control plan template - $100 Value

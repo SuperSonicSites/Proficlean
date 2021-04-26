@@ -23,7 +23,7 @@ product1_bullet9: Emballé dans un emballage zéro déchet
 product1_heading2: Obtenez une maison plus sûre, plus saine et plus propre
 product1_desc3: Les nettoyants probiotiques utilisent un équilibre de bactéries vivantes pour continuer à nettoyer votre maison longtemps après l'application du produit. Parce que les bactéries changent constamment leur ADN, il est presque impossible de continuer à créer des produits qui les tuent complètement. Tout comme lorsque vous prenez des probiotiques pour garder votre corps en bonne santé de la même manière en nourrissant les bonnes bactéries présentes sur les surfaces de nos maisons, nous pouvons aider à rétablir l'équilibre sain dans nos espaces de vie et à les libérer des toxines nocives et cancérigènes, des produits chimiques et agents pathogènes.
 start: Acheter EkoCleaner
-link_ekocleaner: https://www.ekoaccent.com/fr/produit/nettoyant-toutes-surfaces-sans-toxines-avec-des-probiotiques-dans-un-emballage-zero-dechet
+link_ekocleaner: https://www.ekoaccent.com/fr/produit/nettoyant-probiotique-pour-toutes-les-surfaces-dans-un-emballage-zero-dechet-et-sans-toxines-nocives
 
 subscribe: Livraison Mensuel
 link_ekocleaner_subscribe: https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/

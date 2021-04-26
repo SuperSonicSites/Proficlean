@@ -4,7 +4,7 @@ description: Nous offrons des services d'entretien de plancher, de nettoyage ré
 bannerh1: Nos Services
 layout: services
  
-Service1: Services d'entretien de plancher
+Service1: Services d'entretien de plancher commercial
 Service1_desc: Nettoyez professionnellement vos planchers et assurez un environnement sain et sûr pour vous, votre équipe et vos clients, tout en sauvant la planète en même temps. Économisez des milliers de dollars en réparations et remplacements en prolongeant la durée de vie de vos planchers pendant des années avec des soins appropriés à une fraction du coût!
 service1_bonus1: Désinfection ou évaluation GRATUITE pour vos locaux - Valeur minimale de 300 $
 service1_bonus2: Plan de contrôle préventif COVID-19 GRATUIT - Valeur de 100 $
